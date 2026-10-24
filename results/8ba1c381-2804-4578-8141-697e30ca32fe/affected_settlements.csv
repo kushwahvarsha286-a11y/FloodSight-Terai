@@ -1,0 +1,9 @@
+name,area_flooded_pct,flooded_buildings,people_exposed_est,population_basis,severity,affected
+Residential area 1,0.78,19,95,Estimate: flooded buildings x 5 persons/building,Low,True
+Residential area 2,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Residential area 3,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Residential area 4,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Residential area 5,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Residential area 6,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Residential area 7,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Residential area 8,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False

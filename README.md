@@ -1,5 +1,5 @@
-# FloodSight-Terai
-Every monsoon, rivers in Nepal’s Terai plains flood villages and roads. Authorities need to know quickly which areas are under water and which settlements are hit. Our software takes a satellite image from before the flood and one from after. It finds water in both, keeps only the new water, and overlays that on a settlement map. 
+# FloodSight Terai
+
 **From satellite pixels to affected villages.** A flood mapping and settlement-impact dashboard for Nepal's Terai region, with an offline, illustrative demo and a Planetary Computer real-scene workflow.
 
 > **Important:** Run Demo uses synthetic imagery and example settlement data. It is labelled throughout the UI and is not an observation of an actual flood. Accuracy scores are only displayed when a reference flood mask is provided; the demo has none.

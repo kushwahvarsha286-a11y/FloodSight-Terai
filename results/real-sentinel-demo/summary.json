@@ -1,0 +1,39 @@
+{
+  "sample_data": false,
+  "label": "REAL DATA",
+  "aoi_name": "Koshi Terai demonstration sector",
+  "pre_date": "2024-12-17",
+  "post_date": "2024-12-27",
+  "sensor_used": "Sentinel-2 L2A",
+  "sar_fallback_used": false,
+  "cloud_cover_pct": 8.7e-05,
+  "flooded_area_ha": 0.0,
+  "settlements_total": 8,
+  "settlements_affected": 0,
+  "people_exposed_est": 0,
+  "population_basis": "Estimate: flooded buildings x 5 persons/building; OSM coverage may be incomplete.",
+  "metrics": null,
+  "metrics_message": "No reference mask provided",
+  "bounds": [
+    [
+      87.26987532865718,
+      26.427673873508486
+    ],
+    [
+      87.2900694314948,
+      26.442250375492076
+    ]
+  ],
+  "crs": "PROJCRS[\"WGS 84 / UTM zone 45N\",BASEGEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4326]],CONVERSION[\"UTM zone 45N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",87,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Navigation and medium accuracy spatial referencing.\"],AREA[\"Between 84\u00b0E and 90\u00b0E, northern hemisphere between equator and 84\u00b0N, onshore and offshore. Bangladesh. Bhutan. China. India. Kazakhstan. Mongolia. Nepal. Russian Federation.\"],BBOX[0,84,84,90]],ID[\"EPSG\",32645]]",
+  "resolution_m": 10,
+  "scene_ids": [
+    "S2A_MSIL2A_20241217T045221_R076_T45RWK_20241217T073547",
+    "S2A_MSIL2A_20241227T045221_R076_T45RWK_20241227T083652"
+  ],
+  "acquisition_dates": [
+    "2024-12-17",
+    "2024-12-27"
+  ],
+  "classification_note": "Computed from selected Planetary Computer satellite scenes; not independently validated.",
+  "imagery_note": "Pre/post map layers and GeoTIFF downloads are Sentinel-2 true-color composites (B04/B03/B02)."
+}
