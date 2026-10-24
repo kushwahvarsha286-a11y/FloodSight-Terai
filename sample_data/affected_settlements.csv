@@ -1,0 +1,7 @@
+name,area_flooded_pct,flooded_buildings,people_exposed_est,population_basis,severity,affected
+Biratnagar East,61.4,34,170,Estimate: flooded buildings x 5 persons/building,High,True
+Katahari,38.2,17,85,Estimate: flooded buildings x 5 persons/building,Medium,True
+Jahada,18.7,8,40,Estimate: flooded buildings x 5 persons/building,Low,True
+Rangeli North,7.4,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Duhabi,0.0,0,0,Estimate: flooded buildings x 5 persons/building,Not affected,False
+Tankisinuwari,24.1,11,55,Estimate: flooded buildings x 5 persons/building,Medium,True

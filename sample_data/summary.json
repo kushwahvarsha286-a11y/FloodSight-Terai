@@ -1,0 +1,30 @@
+{
+  "sample_data": true,
+  "label": "SAMPLE DATA - illustrative",
+  "aoi_name": "Koshi Terai demonstration sector",
+  "pre_date": "2024-07-01",
+  "post_date": "2024-07-06",
+  "sensor_used": "Synthetic optical (Sentinel-2-like)",
+  "sar_fallback_used": false,
+  "cloud_cover_pct": 12.0,
+  "flooded_area_ha": 25.2,
+  "settlements_total": 6,
+  "settlements_affected": 4,
+  "people_exposed_est": 350,
+  "population_basis": "Estimate: flooded buildings x 5 persons/building",
+  "metrics": null,
+  "metrics_message": "No reference mask provided",
+  "bounds": [
+    [
+      87.27,
+      26.4278
+    ],
+    [
+      87.29,
+      26.4422
+    ]
+  ],
+  "crs": "EPSG:4326",
+  "resolution_m": 10,
+  "classification_note": "Illustrative synthetic rasters; not observed satellite data."
+}
