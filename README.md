@@ -139,12 +139,4 @@ npm run lint
 
 The pipeline tests cover normalized water indices, optical agreement, flood differencing, settlement flag/severity rules, ordered pre/post scene windows and reference-mask metrics.
 
-## Known limitations
 
-- Planetary Computer, Copernicus DEM, OpenStreetMap tiles and OSM feature access need an internet connection. The saved demo analysis data does not; without internet, OSM basemap tiles are unavailable.
-- Optical scene cloud cover is item metadata, not a cloud percentage calculated only within the AOI. SCL is used to exclude invalid pixels during classification.
-- Sentinel-2 revisit timing, monsoon clouds, mixed pixels and SAR speckle can affect flood delineation.
-- OSM settlement/building coverage is incomplete and uneven; building-based population is explicitly an estimate.
-- The approximate basin presets are starting areas, not authoritative hydrological boundaries; upload a reviewed AOI GeoJSON for operational work.
-- Validation metrics remain absent until a reference mask is supplied to the validation module. No accuracy figures are inferred from synthetic data.
-- This is a decision-support prototype, not an authoritative emergency-management product. Review outputs with local authorities and field observations.
